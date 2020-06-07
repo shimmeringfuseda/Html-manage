@@ -1,0 +1,108 @@
+
+
+/*header*/
+.navbar{
+    background-color: #491217;
+}
+
+
+/**/
+
+/*setting*/
+.image-set {
+    background-image: url("sample-back2.png");
+    background-size: cover;
+    height: auto;
+    padding: 50px 25px 50px 25px;
+}
+a{
+    text-decoration: none;
+}
+/**/
+
+/*contents*/
+
+
+
+
+
+.jumbotron {
+    background-color: transparent;
+    min-height: 300px;
+    color: rgba(100, 100, 100, 0.1);
+    margin-top: 20px;
+}
+
+
+
+a.card-link {
+	display: block;
+	padding: 0.8em;
+	text-align: center;
+	text-decoration: none;
+	color: #721c24;
+	border: 2px solid #721c24;
+	border-radius: 3px;
+	transition: .4s;
+    font-family: Dubai;
+    background-color: white;
+}
+a.card-link:hover {
+	background: #721c24;
+	color: #fff;
+}
+
+.card{
+    background-color: transparent;
+    border: none;
+}
+
+.card-text{
+    color: #d3d9df;
+}
+
+.row{
+    margin: 0 0
+}
+
+
+
+/**/
+
+
+/*footer*/
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+}
+.allrights {
+    padding: 3px;
+    margin: 2px;
+}
+
+.container-foot{
+    width: auto;
+    opacity: 0.7;
+}
+.right{
+    width: 120px;
+    float: right;
+}
+.container-foot p{
+    color: #d3d9df;
+    margin: 2px;
+    padding: 0px 14px 0px 0px;
+    text-decoration: none;
+}
+

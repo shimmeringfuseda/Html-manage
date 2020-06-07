@@ -1,0 +1,140 @@
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #491217;
+}
+.image-set{
+    background-image: url("sample-back2.png");
+    background-size: cover;
+    height: auto;
+    padding: 50px 25px 50px 25px;
+}
+
+
+.jumbotron {
+
+    background-color: transparent;
+    min-height: 300px;
+    color: rgba(100, 100, 100, 0.1)
+
+
+}
+.card1{
+    background-color: #f8f9fa;
+    margin: 3px;
+    padding: 3px;
+}
+.row{
+    margin: 0 auto;
+}
+.card{
+
+}
+.card-body{
+
+}
+
+.display-4{
+    color: #491217;
+}
+.lead{
+    color: #491217;
+}
+
+.list-group list-group-horizontal-md{
+    width: auto;
+}
+
+
+h2{
+    font-family: Dubai;
+}
+
+.stars{
+    float: left;
+    border: dotted rgba(73, 18, 23, 0.7);
+    padding: 5px;
+    background-color: white;
+    width: auto;
+    margin: 7px 0 7px 0;
+}
+
+.evaluation{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.evaluation input[type='radio']{
+  display: none;
+}
+.evaluation label{
+  position: relative;
+  padding: 10px 10px 0;
+  color: gray;
+  cursor: pointer;
+  font-size: 30px;
+}
+.evaluation label .text{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  color: gray;
+}
+.evaluation label:hover,
+.evaluation label:hover ~ label,
+.evaluation input[type='radio']:checked ~ label{
+  color: #721c24;
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #f5f5f5;
+}
+.allrights {
+    padding: 3px;
+    margin: 2px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.container-foot{
+    width: auto;
+    opacity: 0.7;
+
+
+}
+.right{
+    width: 120px;
+    float: right;
+}
+.container-foot p{
+    color: #d3d9df;
+    margin: 2px;
+    padding: 0px 14px 0px 0px;
+    text-decoration: none;
+
+}
+
+
